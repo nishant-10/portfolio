@@ -1,0 +1,11 @@
+.app2 {
+  z-index: 2 !important;
+  padding-top: 7rem;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+@media screen and (min-width: 900px) {
+  .app2 {
+    filter: blur(0) !important;
+  }
+}
