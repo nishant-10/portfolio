@@ -1,0 +1,82 @@
+.aboutContainer {
+  background-color: rgba(102, 51, 153, 0);
+  margin: 2% 22% 12% 22%;
+  font-family: sans-serif;
+}
+.aboutTitleNumber {
+  color: #64ffda;
+}
+.aboutTitleText {
+  color: #ccd6f6;
+}
+.aboutTitle > .aboutLine {
+  padding-left: 1rem;
+  color: #8892b04b;
+  font-family: monospace;
+}
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  justify-items: center;
+}
+.aboutContent {
+  margin-top: 2rem;
+}
+.aboutPara {
+  display: block;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  color: #8892b0;
+}
+.aboutPhoto {
+  /* background-color: brown; */
+}
+.myimage {
+  margin: 2rem 2rem 0 2rem;
+
+  height: auto;
+  width: 250px;
+
+  transition: all 0.2s ease-in-out;
+  /* height: auto;
+  width: 100%; */
+}
+.myimage:hover {
+  transform: translateY(-4px);
+  content: url("../../public/compress32.jpeg");
+}
+.aboutSkillul li::before {
+  content: "▹";
+  color: #64ffda;
+}
+.aboutSkillul li {
+  color: #8892b0;
+  margin-right: 2rem;
+}
+.aboutSkillul {
+  width: fit-content;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+
+  list-style: none;
+}
+grid-item:nth-child(2) {
+  border: 2px dashed red;
+}
+@media only screen and (max-width: 768px) {
+  .aboutContainer {
+    margin: 3% 5% 20% 5%;
+  }
+  .aboutGrid {
+    grid-template-columns: 1fr;
+  }
+  .myimage {
+    height: 220px;
+    width: 220px;
+  }
+  .aboutTitle {
+    font-size: large;
+  }
+}

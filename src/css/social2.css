@@ -1,0 +1,40 @@
+.lnk2 {
+  position: absolute;
+  z-index: 9;
+}
+.lnk2 ul {
+  position: fixed;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  bottom: 15vh;
+  transform: rotate(-0.25turn);
+  color: #ccd6f6;
+  left: -6rem;
+}
+.emaillist2 li {
+  padding-left: 2rem;
+  font-size: 1.2em;
+  display: inline;
+}
+.socioicon {
+  color: #ccd6f6;
+  float: right;
+  padding-left: 1.5rem;
+}
+.socioicon svg {
+  transform: rotate(1.25turn);
+  width: 20px;
+  height: 20px;
+}
+@media screen and (max-width: 900px) {
+  .lnk2 ul {
+    font-size: 0.9em;
+    left: -10rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .lnk2 {
+    display: none;
+  }
+}

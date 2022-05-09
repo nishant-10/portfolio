@@ -1,0 +1,34 @@
+.lnk {
+  position: absolute;
+  z-index: 9;
+}
+.lnk ul {
+  position: fixed;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  bottom: 20vh;
+  transform: rotate(-0.75turn);
+  color: #ccd6f6;
+  right: -10rem;
+}
+.emaillist li {
+  padding-left: 2rem;
+  font-size: 1.2em;
+  display: inline;
+}
+.emailatag {
+  color: #ccd6f6;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 900px) {
+  .lnk ul {
+    font-size: 0.9em;
+    right: -10rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .lnk {
+    display: none;
+  }
+}

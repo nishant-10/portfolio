@@ -1,0 +1,43 @@
+.cardArea {
+  background-color: rgba(102, 51, 153, 0);
+  margin: 0 14% 0 14%;
+}
+.cardArea * {
+  font-family: sans-serif;
+}
+.cah1 {
+  margin-bottom: 0;
+  text-align: center;
+}
+.cardAreaTitle {
+  font-size: larger;
+  color: #ccd6f6;
+}
+.cardAreaSubTitle {
+  font-size: medium;
+  color: #64ffda;
+}
+.cards {
+  padding-right: 3rem;
+  padding-left: 3rem;
+  margin-top: 2rem;
+  display: grid;
+  gap: 1rem;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+}
+
+@media only screen and (max-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5rem;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 658px) {
+  .cards {
+    grid-template-columns: 1fr !important;
+    padding: 0;
+  }
+}
