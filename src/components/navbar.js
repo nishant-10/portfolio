@@ -13,6 +13,7 @@ function Navbar() {
     var t = ReactDOM.findDOMNode(element);
     if (!isHamClicked || !status) {
       t.style.transform = "TranslateX(0)";
+
       t.style.zIndex = "20";
       element2.style.filter = "blur(4px)";
       hamClick(true);

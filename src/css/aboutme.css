@@ -30,6 +30,7 @@
 }
 .aboutPhoto {
   /* background-color: brown; */
+  position: relative;
 }
 .myimage {
   margin: 2rem 2rem 0 2rem;
@@ -37,9 +38,18 @@
   height: auto;
   width: 250px;
 
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
   /* height: auto;
   width: 100%; */
+}
+.afterSquare {
+  position: absolute;
+  top: 15%;
+  left: 18%;
+  height: 250px;
+  width: 250px;
+  border: 2px solid #64ffda;
+  z-index: -1;
 }
 .myimage:hover {
   transform: translateY(-4px);
@@ -47,6 +57,7 @@
 }
 .aboutSkillul li::before {
   content: "▹";
+  padding-right: 1rem;
   color: #64ffda;
 }
 .aboutSkillul li {
@@ -58,6 +69,7 @@
   padding: 0;
 
   display: grid;
+  gap: 0.2rem;
   grid-template-columns: 3fr 2fr;
 
   list-style: none;
@@ -67,7 +79,7 @@ grid-item:nth-child(2) {
 }
 @media only screen and (max-width: 768px) {
   .aboutContainer {
-    margin: 3% 5% 20% 5%;
+    margin: 14% 5% 20% 5%;
   }
   .aboutGrid {
     grid-template-columns: 1fr;
@@ -78,5 +90,17 @@ grid-item:nth-child(2) {
   }
   .aboutTitle {
     font-size: large;
+  }
+  .aboutPhoto {
+    z-index: 1;
+  }
+  .afterSquare {
+    position: absolute;
+    left: 17%;
+    top: 17%;
+    height: 220px;
+    width: 220px;
+    border: 2px solid #64ffda;
+    z-index: -1;
   }
 }

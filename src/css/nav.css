@@ -84,7 +84,10 @@ button {
 }
 .hamMenu {
   font-size: large;
-  background-color: #0a192f;
+  background-color: #0a192fb8;
+  backdrop-filter: blur(5px);
+
+  backdrop-filter: blur(12px);
   width: auto;
   transform: translateX(110%);
   position: fixed;
@@ -95,7 +98,6 @@ button {
   box-shadow: 10px 8px 10px #888888;
 }
 .hamMenu ul {
-  background-color: #0a192f;
   display: inline;
   list-style: none;
   float: right;

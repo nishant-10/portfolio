@@ -45,7 +45,8 @@ function Aboutme() {
             </div>
           </div>
           <div className="aboutPhoto">
-            <img className="myimage" src={photo} />
+            <img className="myimage" src={photo}></img>
+            <div className="afterSquare" />
           </div>
         </div>
       </div>
