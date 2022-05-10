@@ -34,6 +34,7 @@
   font-size: 1.3rem;
 }
 .gitbutton {
+  font-family: monospace;
   background-color: #0a192f;
   font-size: inherit;
   color: #64ffda;
@@ -62,6 +63,7 @@
   }
   .heroSection {
     background-color: rgba(102, 51, 153, 0);
+    user-select: none;
     height: fit-content;
     padding: 5%;
   }
@@ -76,6 +78,6 @@
   }
   .gitbutton {
     font-size: small;
-    padding: 0.5rem;
+    padding: 0.8rem;
   }
 }

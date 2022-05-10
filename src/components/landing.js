@@ -6,6 +6,8 @@ import Social from "./social";
 import SocialTwo from "./socialTwo";
 import ProjectCards from "./ProjectCards";
 import Aboutme from "./Aboutme";
+import SayHello from "./SayHello";
+import SocialFoot from "./SocialFoot";
 function Landing() {
   return (
     <>
@@ -16,6 +18,8 @@ function Landing() {
         <Hero />
         <Aboutme />
         <ProjectCards />
+        <SayHello />
+        <SocialFoot />
       </div>
     </>
   );

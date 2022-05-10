@@ -5,6 +5,7 @@
 }
 .aboutTitleNumber {
   color: #64ffda;
+  font-family: monospace;
 }
 .aboutTitleText {
   color: #ccd6f6;
@@ -21,6 +22,7 @@
 }
 .aboutContent {
   margin-top: 2rem;
+  line-height: 1.5rem;
 }
 .aboutPara {
   display: block;
@@ -80,6 +82,11 @@ grid-item:nth-child(2) {
 @media only screen and (max-width: 768px) {
   .aboutContainer {
     margin: 14% 5% 20% 5%;
+    user-select: none;
+  }
+  .aboutTitle {
+    white-space: nowrap;
+    overflow: hidden;
   }
   .aboutGrid {
     grid-template-columns: 1fr;
