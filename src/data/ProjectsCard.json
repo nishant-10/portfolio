@@ -1,34 +1,37 @@
 {
   "projects": [
     {
-      "Title": "Title1",
-      "Description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dolorem ut voluptas distinctio repellendus asperiores quasi tenetur ipsa sequi corporis.",
-      "Tags": ["Tag1", "Tag2", "Tag3"]
+      "Title": "Cloud Based Vehicle Surveillance System",
+      "Description": "Client app made in Python detects & alerts driver's drowsiness, obstacles, etc. Also uploads & display clips of these occurences on a website.",
+      "Tags": ["HTML", "CSS", "Bootstrap", "PHP", "MySQL", "Python"]
     },
     {
-      "Title": "Title2",
-      "Description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dolorem ut voluptas distinctio repellendus asperiores quasi tenetur ipsa sequi corporis.",
-      "Tags": ["Tag1", "Tag2", "Tag3"]
+      "Title": "Data storage (CRUD) using Ethereum Smart Contracts",
+      "Description": "As a blockchain based project, a website which interacts with ethereum smart contracts to store criminal data. Thus maintaining data decentralization and itegrity ",
+      "Tags": [
+        "Ethereum Remix",
+        "Smart Contracts",
+        "MetaMask",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap"
+      ]
     },
     {
-      "Title": "Title3",
-      "Description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dolorem ut voluptas distinctio repellendus asperiores quasi tenetur ipsa sequi corporis.",
-      "Tags": ["Tag1", "Tag2", "Tag3"]
+      "Title": "Covid 19 Tracker using R Shiny",
+      "Description": "As a part of Big Data syllabus, a web application to visualize covid waves in a very interactive manner.",
+      "Tags": ["R", "R Shiny"]
     },
     {
-      "Title": "Title4",
-      "Description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dolorem ut voluptas distinctio repellendus asperiores quasi tenetur ipsa sequi corporis.",
-      "Tags": ["Tag1", "Tag2", "Tag3"]
+      "Title": "Climate Change Analysis & visualization",
+      "Description": "As a part of Advanced Mining Techinques syllabus, wrote a python script to interactively visualize data using maps.",
+      "Tags": ["Python", "Jupyter Notebook", "MapBox API"]
     },
     {
-      "Title": "Title5",
-      "Description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dolorem ut voluptas distinctio repellendus asperiores quasi tenetur ipsa sequi corporis.",
-      "Tags": ["Tag1", "Tag2", "Tag3"]
-    },
-    {
-      "Title": "Title6",
-      "Description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dolorem ut voluptas distinctio repellendus asperiores quasi tenetur ipsa sequi corporis.",
-      "Tags": ["Tag1", "Tag2", "Tag3"]
+      "Title": "Desktop app for bruteforcing social media sites",
+      "Description": "App which uses combination of alphabets or dictionary to brute force attack login pages.",
+      "Tags": ["Python", "Tkinter", "Selenium"]
     }
   ]
 }

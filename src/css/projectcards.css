@@ -28,8 +28,11 @@
 }
 
 @media only screen and (max-width: 1200px) {
+  .cardArea {
+    margin: 0 14% 0 14%;
+  }
   .cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     padding: 0.5rem;
     gap: 1rem;
   }

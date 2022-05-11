@@ -49,11 +49,29 @@
   color: #919dbb;
   font-size: 1rem;
   text-align: left;
+  height: 6rem;
   margin: 1rem 0 1.8rem 0;
 }
+
+.cardTags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .projectTag {
-  margin: 0 0.5rem 0 0.5rem;
+  margin: 0 0.5rem 0.3rem 0.5rem;
   display: inline;
   font-size: small;
+
   color: #687492;
+}
+@media only screen and (max-width: 1300px) {
+  .projectSubtitle {
+    height: 9rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .projectSubtitle {
+    height: auto;
+  }
 }

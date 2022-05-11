@@ -1,6 +1,8 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
+  "name": "hostinger-react",
+  "homepage": "http://www.nishantjoshi.com",
+  "version": "1.0.0",
+  "description": "my react application",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
