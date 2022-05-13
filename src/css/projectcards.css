@@ -16,6 +16,12 @@
 .cardAreaSubTitle {
   font-size: medium;
   color: #64ffda;
+  margin-bottom: 2rem;
+}
+.cardAreaInfo {
+  color: #64ffda;
+  font-weight: normal;
+  font-size: small;
 }
 .cards {
   padding-right: 3rem;
@@ -26,7 +32,23 @@
   /* grid-template-columns: repeat(3, 1fr); */
   grid-template-columns: repeat(3, minmax(200px, 1fr));
 }
-
+.showMoreButt {
+  all: unset;
+  background-color: #0a192f;
+  font-size: 1rem;
+  color: #64ffda;
+  padding: 0.7rem;
+  border: 1px solid #64ffda;
+  border-radius: 0.3rem;
+  transition: all 0.2s ease-in-out;
+}
+.showMoreButt:hover {
+  background-color: #64ffdb1f;
+}
+.showMoreButtonArea {
+  margin: 5% 0 15% 0;
+  text-align: center;
+}
 @media only screen and (max-width: 1200px) {
   .cardArea {
     margin: 0 14% 0 14%;

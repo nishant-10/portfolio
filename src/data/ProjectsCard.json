@@ -1,11 +1,32 @@
 {
+  "Socials": {
+    "Instagram": "https://www.instagram.com/nishantxd_/",
+
+    "LinkedIn": "https://www.linkedin.com/in/nishantjoshi10/",
+
+    "Email": "nishantjoshi863@gmail.com",
+
+    "GitHub": "https://github.com/nishant-10"
+  },
   "projects": [
     {
+      "id": 1,
       "Title": "Cloud Based Vehicle Surveillance System",
       "Description": "Client app made in Python detects & alerts driver's drowsiness, obstacles, etc. Also uploads & display clips of these occurences on a website.",
-      "Tags": ["HTML", "CSS", "Bootstrap", "PHP", "MySQL", "Python"]
+      "Tags": ["HTML", "CSS", "Bootstrap", "PHP", "MySQL", "Python"],
+      "DemoLink": "https://github.com/nishant-10/CloudBasedVehicleSurveillance",
+      "GitLink": "https://github.com/nishant-10/CloudBasedVehicleSurveillance"
     },
     {
+      "id": 2,
+      "Title": "Virtual Keypad using vanilla Javascript",
+      "Description": "Keypad that we use on banking websites as a security measure. Many features such as jumbling of keys after reload and tab change.",
+      "Tags": ["HTML", "CSS", "Javascript"],
+      "DemoLink": "https://github.com/nishant-10/Javascript_Virtual_Keypad",
+      "GitLink": "https://github.com/nishant-10/Javascript_Virtual_Keypad"
+    },
+    {
+      "id": 3,
       "Title": "Data storage (CRUD) using Ethereum Smart Contracts",
       "Description": "As a blockchain based project, a website which interacts with ethereum smart contracts to store criminal data. Thus maintaining data decentralization and itegrity ",
       "Tags": [
@@ -16,22 +37,33 @@
         "CSS",
         "JavaScript",
         "Bootstrap"
-      ]
+      ],
+      "DemoLink": "https://github.com/nishant-10/CriminalDataStorageEthereumWebApp",
+      "GitLink": "https://github.com/nishant-10/CriminalDataStorageEthereumWebApp"
     },
     {
+      "id": 4,
       "Title": "Covid 19 Tracker using R Shiny",
       "Description": "As a part of Big Data syllabus, a web application to visualize covid waves in a very interactive manner.",
-      "Tags": ["R", "R Shiny"]
+      "Tags": ["R", "R Shiny"],
+      "DemoLink": "https://github.com/nishant-10/RShinyCovidTracker",
+      "GitLink": "https://github.com/nishant-10/RShinyCovidTracker"
     },
     {
+      "id": 5,
       "Title": "Climate Change Analysis & visualization",
       "Description": "As a part of Advanced Mining Techinques syllabus, wrote a python script to interactively visualize data using maps.",
-      "Tags": ["Python", "Jupyter Notebook", "MapBox API"]
+      "Tags": ["Python", "Jupyter Notebook", "MapBox API"],
+      "DemoLink": "https://github.com/nishant-10/ClimateChangeAnalysisAndVisualization",
+      "GitLink": "https://github.com/nishant-10/ClimateChangeAnalysisAndVisualization"
     },
     {
+      "id": 6,
       "Title": "Desktop app for bruteforcing social media sites",
       "Description": "App which uses combination of alphabets or dictionary to brute force attack login pages.",
-      "Tags": ["Python", "Tkinter", "Selenium"]
+      "Tags": ["Python", "Tkinter", "Selenium"],
+      "DemoLink": "https://github.com/nishant-10/BruteForceDesktopApp",
+      "GitLink": "https://github.com/nishant-10/BruteForceDesktopApp"
     }
   ]
 }

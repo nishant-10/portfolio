@@ -98,9 +98,7 @@ function useOutsideAlerter(ref) {
   useEffect(() => {
     // Function for click event
     function handleOutsideClick(event) {
-      console.log(status);
       if (ref.current && !ref.current.contains(event.target) && status) {
-        console.log("you just clicked outside of box!");
         let element2 = document.getElementById("app2");
         let element = document.getElementById("hamMenu");
         var t = ReactDOM.findDOMNode(element);

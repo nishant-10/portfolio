@@ -13,14 +13,15 @@ function Hero() {
               I’m a software engineer specializing in building (and occasionally
               designing) exceptional digital experiences. Currently, I’m focused
               on building accessible, human-centered products at
-              <h5
+              <span
                 style={{
                   display: "inline",
                   color: "#64ffda",
+                  fontWeight: "bold",
                 }}
               >
                 &nbsp;Upstatement
-              </h5>
+              </span>
               .
             </h5>
             <button

@@ -7,13 +7,13 @@
   text-decoration: none;
   list-style: none;
   padding: 0;
-  bottom: 20vh;
+  bottom: 10vh;
   transform: rotate(-0.75turn);
   color: #ccd6f6;
   right: -10rem;
 }
 .emaillist li {
-  padding-left: 2rem;
+  padding-left: 0.3rem;
   font-size: 1.2em;
   display: inline;
 }

@@ -8,18 +8,19 @@ import ProjectCards from "./ProjectCards";
 import Aboutme from "./Aboutme";
 import SayHello from "./SayHello";
 import SocialFoot from "./SocialFoot";
+const data = require("../data/ProjectsCard.json");
 function Landing() {
   return (
     <>
       <Navbar />
-      <Social />
-      <SocialTwo />
+      <Social data={data} />
+      <SocialTwo data={data} />
       <div className="app2" id="app2">
         <Hero />
         <Aboutme />
-        <ProjectCards />
+        <ProjectCards data={data} />
         <SayHello />
-        <SocialFoot />
+        <SocialFoot data={data} />
       </div>
     </>
   );

@@ -36,7 +36,8 @@
 .gitbutton {
   font-family: monospace;
   background-color: #0a192f;
-  font-size: inherit;
+  word-spacing: 2px;
+  font-size: 0.9rem;
   color: #64ffda;
   padding: 1.3rem;
   border: 1px solid #64ffda;
