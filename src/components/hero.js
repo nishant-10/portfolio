@@ -1,18 +1,16 @@
 import React from "react";
 import "../css/hero.css";
-function Hero() {
+function Hero(props) {
   return (
     <>
-      <div className="heroSection">
+      <div className="heroSection" id="heroSection">
         <div className="herotext">
           <p>Hi, my name is </p>
           <h1 className="name">Nishant Joshi.</h1>
           <h1 className="built">I build things on web.</h1>
           <span>
             <h5 className="desc">
-              I’m a software engineer specializing in building (and occasionally
-              designing) exceptional digital experiences. Currently, I’m focused
-              on building accessible, human-centered products at
+              {props.data.AllText.heroDescription}
               <span
                 style={{
                   display: "inline",
@@ -20,7 +18,7 @@ function Hero() {
                   fontWeight: "bold",
                 }}
               >
-                &nbsp;Upstatement
+                &nbsp;{props.data.AllText.heroDescriptionKeyword}
               </span>
               .
             </h5>

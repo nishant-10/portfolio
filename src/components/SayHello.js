@@ -1,9 +1,9 @@
 import React from "react";
 import "../css/sayhello.css";
-function SayHello() {
+function SayHello(props) {
   return (
     <>
-      <div className="sayHelloSection">
+      <div className="sayHelloSection" id="sayHelloSection">
         <h1 className="sayHelloTitleArea">
           <p className="sayHelloPara sayHelloTitleNumber">04. </p>
           <p className="sayHelloPara sayHelloTitle">What's Next?</p>
@@ -15,7 +15,14 @@ function SayHello() {
             inbox is always open. Whether you have a question or just want to
             say hi, I’ll try my best to get back to you!
           </p>
-          <button className="sayHelloContentButton">Say Hello!</button>
+          <a
+            className="sayHelloContentButton"
+            href={props.data.Socials.LinkedIn}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Say Hello!
+          </a>
         </div>
       </div>
     </>

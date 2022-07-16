@@ -31,15 +31,16 @@ function App() {
   }, []);
   return (
     <div className="App">
-      {loading ? (
+      {/* {loading ? (
         <PropagateLoader color={"#64FFDA"} size={30} css={override} />
       ) : (
-        <>
-          <div onClick={appCLick}>
-            <Landing />
-          </div>
-        </>
-      )}
+       
+      )} */}
+      <>
+        <div onClick={appCLick}>
+          <Landing />
+        </div>
+      </>
     </div>
   );
 }

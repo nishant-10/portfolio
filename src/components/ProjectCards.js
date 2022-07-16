@@ -28,7 +28,7 @@ function ProjectCards(props) {
   };
   return (
     <>
-      <div className="cardArea">
+      <div className="cardArea" id="cardArea">
         <h1 className="cah1 cardAreaTitle">Noteworthy Projects</h1>
         <h1 className="cah1 cardAreaSubTitle">Personal & College</h1>
         <h1 className="cah1 cardAreaInfo">

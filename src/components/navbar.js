@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "../App.css";
 import "../css/nav.css";
 let status = false;
-function Navbar() {
+function Navbar(props) {
   const [isHamClicked, hamClick] = useState(false);
   const box = useRef(null);
   useOutsideAlerter(box);
@@ -31,27 +31,34 @@ function Navbar() {
         <img src={require("../icons8-n-100.png")} alt="" srcSet="" />
         <ul>
           <li>
-            <a href="#news">
+            <a href="#heroSection">
+              <p>01. </p> Home
+            </a>
+          </li>
+          <li>
+            <a href="#cardArea">
+              <p>02. </p>Projects
+            </a>
+          </li>
+          <li>
+            <a href="#aboutContainer">
               <p>01. </p> Experience
             </a>
           </li>
           <li>
-            <a href="#news">
-              <p>02. </p>Work
-            </a>
-          </li>
-          <li>
-            <a href="#contact">
+            <a href="#sayHelloSection">
               <p>03. </p>Contact
             </a>
           </li>
           <li>
-            <a href="#home">
-              <p>04. </p>About
+            <a
+              className="resumebutton"
+              href={props.data.Socials.Resume}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
             </a>
-          </li>
-          <li>
-            <button className="resumebutton">Resume</button>
           </li>
         </ul>
       </nav>
@@ -65,27 +72,34 @@ function Navbar() {
         <div id="hamMenu" className="hamMenu">
           <ul>
             <li>
-              <a href="#news">
+              <a href="#heroSection">
+                <p>01. </p> Home
+              </a>
+            </li>
+            <li>
+              <a href="#cardArea">
+                <p>02. </p>Projects
+              </a>
+            </li>
+            <li>
+              <a href="#aboutContainer">
                 <p>01. </p> Experience
               </a>
             </li>
             <li>
-              <a href="#news">
-                <p>02. </p>Work
-              </a>
-            </li>
-            <li>
-              <a href="#contact">
+              <a href="#sayHelloSection">
                 <p>03. </p>Contact
               </a>
             </li>
             <li>
-              <a href="#home">
-                <p>04. </p>About
+              <a
+                className="resumebutton"
+                href={props.data.Socials.Resume}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Resume
               </a>
-            </li>
-            <li>
-              <button className="resumebutton">Resume</button>
             </li>
           </ul>
         </div>

@@ -1,6 +1,22 @@
 {
+  "AllText": {
+    "heroDescription": "An aspiring learner who is always curious to learn new things, experiment, look for solutions and grab opportunities! Currently, I am focused on",
+    "heroDescriptionKeyword": "web development technologies",
+    "AboutParaOne": "Hello! My name is Nishant Joshi and i enjoy making things on web. I also know basics of app development but my main intrest is on web development. My intrest started way back when i started my BSc IT in 2015 from DG Ruparel college. Then, I completed MSc in Computer Science from Ramnarain Ruia Autonomous college. MSc exposed me to various new technologies such as data science, data mining, blockchain, AI, ML, etc.",
+    "AboutParaTwo": "During all these years, I got a chance to do around 15 projects / demonstrations which included writeups, mini projects, final year projects. In this portfolio I've also added demos that are chosen and made by myself. Currently I've experience of 6 months of working as a NodeJS backend developer intern in Finclusion Solutions Pvt Ltd. It's financial consulting and IT solution providing company based in Andheri, Mumbai.",
+    "AboutParaThree": "During the intern period, I've worked on APIs, Databases, modelling digrams, etc.",
+    "AboutSkills": [
+      "HTML & CSS",
+      "JavaScript",
+      "NodeJS",
+      "Python",
+      "MongoDB",
+      "SQL"
+    ]
+  },
   "Socials": {
-    "Instagram": "https://www.instagram.com/nishantxd_/",
+    "Resume": "https://www.nishantjoshi.com/Resume.pdf",
+    "Instagram": "https://www.instagram.com/okaynishant/",
 
     "LinkedIn": "https://www.linkedin.com/in/nishantjoshi10/",
 
