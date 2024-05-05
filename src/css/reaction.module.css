@@ -1,0 +1,62 @@
+.section_title {
+    text-align: center;
+    color: #64ffda;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.emoji_list {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    height: 20px;
+}
+
+.emoji_element {
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.emoji_element:hover {
+    text-shadow:
+        0 0 7px #ffffff44,
+        0 0 10px #ffffff41,
+        0 0 21px #ffffff52,
+        0 0 42px rgba(0, 255, 170, 0.155),
+        0 0 82px rgba(0, 255, 170, 0.318),
+        0 0 92px rgba(0, 255, 170, 0.251),
+        0 0 102px rgba(0, 255, 170, 0.266),
+        0 0 151px rgba(0, 255, 170, 0.27);
+}
+
+.is_selected {
+    font-size: 25px;
+    text-shadow:
+        0 0 7px #ffffff44,
+        0 0 10px #ffffff41,
+        0 0 21px #ffffff52,
+        0 0 42px rgba(0, 255, 170, 0.155),
+        0 0 82px rgba(0, 255, 170, 0.318),
+        0 0 92px rgba(0, 255, 170, 0.251),
+        0 0 102px rgba(0, 255, 170, 0.266),
+        0 0 151px rgba(0, 255, 170, 0.27);
+}
+
+.count_text {
+    cursor: initial;
+    user-select: none;
+    font-family: monospace;
+}
+
+.emoji_element:hover {
+    font-size: 25px;
+}
+
+.emoji_desc {
+    height: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    transition: all 0.1s ease-in-out;
+}

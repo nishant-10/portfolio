@@ -1,6 +1,8 @@
 import React from "react";
 import "../css/sayhello.css";
-function SayHello(props) {
+import { useData } from "../contexts/data_context";
+function SayHello() {
+  const { homepage_data } = useData()
   return (
     <>
       <div className="sayHelloSection" id="sayHelloSection">
@@ -11,13 +13,11 @@ function SayHello(props) {
         <div className="sayHelloContent">
           <p className="sayHelloContentTitle">Get In Touch</p>
           <p className="sayHelloContentPara">
-            Although I’m not currently looking for any new opportunities, my
-            inbox is always open. Whether you have a question or just want to
-            say hi, I’ll try my best to get back to you!
+            Hit me up on my socials!
           </p>
           <a
             className="sayHelloContentButton"
-            href={props.data.Socials.LinkedIn}
+            href={homepage_data.Socials.LinkedIn}
             target="_blank"
             rel="noreferrer"
           >

@@ -3,6 +3,7 @@ textarea,
 button {
   font-family: inherit;
 }
+
 .nav {
   z-index: 10 !important;
   width: 100%;
@@ -13,42 +14,51 @@ button {
   backdrop-filter: blur(5px);
   padding-top: 1.5rem;
 }
+
 .resumebutton {
   background-color: #0a192f;
-  font-size: inherit;
+  font-size: 1.2em;
+  font-weight: bold;
   color: #64ffda;
   padding: 0.7rem;
   border: 1px solid #64ffda;
   border-radius: 0.3rem;
   transition: all 0.2s ease-in-out;
 }
+
 .resumebutton:hover {
   background-color: #64ffdb1f;
 }
+
 .nav img {
   width: auto;
   height: 5rem;
   padding-left: 3rem;
 }
+
 .nav ul {
   display: inline;
   float: right;
   padding-right: 3rem;
 }
+
 .nav ul li {
   display: inline;
   list-style: none;
   padding: 1.2rem;
 }
+
 .nav ul li a {
   text-decoration: none;
   color: #ccd6f6;
   transition: all 0.3s ease-in-out;
 }
+
 .nav ul li a p {
   color: #64ffda;
   display: inline;
 }
+
 .nav ul li a:hover {
   color: #64ffda;
 }
@@ -65,7 +75,7 @@ button {
   margin-right: 3rem;
 }
 
-.hamburger > span {
+.hamburger>span {
   height: 4px;
   width: 25px;
   border-radius: 2px;
@@ -73,14 +83,16 @@ button {
   background-color: white;
   transition: all 0.3s ease-in-out;
 }
+
 .hamburger:hover span:nth-child(2) {
   transform: translateX(10px);
   background-color: #64ffda;
 }
+
 @keyframes activeanim {
-  0% {
-  }
+  0% {}
 }
+
 .hamMenu {
   font-size: large;
   background-color: #0a192fb8;
@@ -96,44 +108,55 @@ button {
   height: 100vh;
   box-shadow: 10px 8px 10px #888888;
 }
+
 .hamMenu ul {
   display: inline;
   list-style: none;
   float: right;
 }
+
 .hamMenu ul li {
   padding: 2rem;
 }
+
 .hamMenu ul li a {
   color: #ccd6f6;
   transition: all 0.3s ease-in-out;
 }
+
 .hamMenu ul li a p {
   color: #64ffda;
 }
+
 .hamMenu ul li a:hover {
   color: #64ffda;
 }
+
 a {
   text-decoration: none;
 }
-p {
+
+.hamMenu p {
   display: inline;
 }
+
 @media screen and (max-width: 900px) {
   .nav ul {
     display: none;
   }
+
   .nav img {
     width: 3rem;
     height: 3rem;
     padding-left: 3rem;
   }
 }
+
 @media screen and (min-width: 900px) {
   .hamburger span {
     display: none;
   }
+
   .hamMenu {
     transform: translateX(100%) !important;
   }

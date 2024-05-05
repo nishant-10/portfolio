@@ -3,25 +3,26 @@
   margin: 0 14% 0 14%;
 }
 .cardArea * {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: monospace;
 }
 .cah1 {
   margin-bottom: 0;
   text-align: center;
 }
 .cardAreaTitle {
-  font-size: larger;
+  font-size: x-large;
   color: #ccd6f6;
 }
 .cardAreaSubTitle {
-  font-size: medium;
+  font-size: large;
   color: #64ffda;
   margin-bottom: 2rem;
 }
 .cardAreaInfo {
   color: #64ffda;
   font-weight: normal;
-  font-size: small;
+  font-size: medium;
 }
 .cards {
   padding-right: 3rem;

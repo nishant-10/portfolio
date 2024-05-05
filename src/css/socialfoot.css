@@ -1,25 +1,35 @@
 .socialFootSection {
   display: none;
 }
+
 .socialFootUl {
   padding-left: 0;
   text-align: center;
   list-style: none;
 }
-.socialFootUl > li {
+
+.socialFootUl>li {
   padding: 0 0.5rem 0 0.5rem;
   display: inline;
 }
+
 .socialFootIconCommon {
   color: #7d87a4;
   height: 9%;
   width: 9%;
 }
+
 .socialFootText {
   text-align: center;
   font-size: 0.8rem;
-  color: #7d87a4;
+  color:
+    #7d87a4;
 }
+
+.sayHelloTitleArea p{
+  display: inline;
+}
+
 @media only screen and (max-width: 903px) {
   .socialFootSection {
     display: block;
@@ -27,20 +37,24 @@
     margin: 0 10% 0% 10%;
     padding-bottom: 5%;
   }
+
   .socialFootUl {
     padding-left: 0;
     text-align: center;
     list-style: none;
   }
-  .socialFootUl > li {
+
+  .socialFootUl>li {
     padding: 0 0.5rem 0 0.5rem;
     display: inline;
   }
+
   .socialFootIconCommon {
     color: #7d87a4;
     height: 9%;
     width: 9%;
   }
+
   .socialFootText {
     text-align: center;
     font-size: 0.8rem;

@@ -1,6 +1,8 @@
 import React from "react";
 import "../css/social.css";
-function Social(props) {
+import { useData } from "../contexts/data_context";
+function Social() {
+  const {homepage_data} = useData();
   return (
     <>
       <div className="lnk">
@@ -8,11 +10,11 @@ function Social(props) {
           <li className="last">
             <a
               className="emailatag"
-              href={"mailto:" + props.data.Socials.Email}
+              href={"mailto:" + homepage_data.Socials.Email}
               target="_blank"
               rel="noreferrer"
             >
-              {props.data.Socials.Email}
+              {homepage_data.Socials.Email}
             </a>
           </li>
           <li>――――――――――――――――――――――</li>

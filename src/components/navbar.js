@@ -2,8 +2,10 @@ import React, { useState, useRef, useEffect } from "react";
 import ReactDOM from "react-dom";
 import "../App.css";
 import "../css/nav.css";
+import { useData } from "../contexts/data_context";
 let status = false;
-function Navbar(props) {
+function Navbar() {
+  let { homepage_data } = useData();
   const [isHamClicked, hamClick] = useState(false);
   const box = useRef(null);
   useOutsideAlerter(box);
@@ -42,18 +44,18 @@ function Navbar(props) {
           </li>
           <li>
             <a href="#aboutContainer">
-              <p>01. </p> Experience
+              <p>03. </p> Experience
             </a>
           </li>
           <li>
-            <a href="#sayHelloSection">
-              <p>03. </p>Contact
+            <a href="#showMoreButt">
+              <p>04. </p>Contact
             </a>
           </li>
           <li>
             <a
               className="resumebutton"
-              href={props.data.Socials.Resume}
+              href={homepage_data.Socials.Resume}
               target="_blank"
               rel="noreferrer"
             >
@@ -83,18 +85,18 @@ function Navbar(props) {
             </li>
             <li>
               <a href="#aboutContainer">
-                <p>01. </p> Experience
+                <p>03. </p> Experience
               </a>
             </li>
             <li>
-              <a href="#sayHelloSection">
-                <p>03. </p>Contact
+              <a href="#showMoreButt">
+                <p>04. </p>Contact
               </a>
             </li>
             <li>
               <a
                 className="resumebutton"
-                href={props.data.Socials.Resume}
+                href={homepage_data.Socials.Resume}
                 target="_blank"
                 rel="noreferrer"
               >

@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../css/social2.css";
+import { useData } from "../contexts/data_context";
 // const data = require("../data/ProjectsCard.json");
-function SocialTwo(props) {
+function SocialTwo() {
+  const { homepage_data } = useData()
   return (
     <>
       <div className="lnk2">
@@ -9,7 +11,7 @@ function SocialTwo(props) {
           <li>――――――――――――――――――――――</li>
           <li>
             <a
-              href={props.data.Socials.GitHub}
+              href={homepage_data.Socials.GitHub}
               target="_blank"
               rel="noreferrer"
               className="socioicon"
@@ -32,7 +34,7 @@ function SocialTwo(props) {
           </li>
           <li>
             <a
-              href={props.data.Socials.Instagram}
+              href={homepage_data.Socials.Instagram}
               target="_blank"
               rel="noreferrer"
               className="socioicon"
@@ -57,7 +59,7 @@ function SocialTwo(props) {
           </li>
           <li>
             <a
-              href={props.data.Socials.LinkedIn}
+              href={homepage_data.Socials.LinkedIn}
               target="_blank"
               rel="noreferrer"
               className="socioicon"

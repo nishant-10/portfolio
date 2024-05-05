@@ -6,21 +6,27 @@
   background-color: #112240;
   border-radius: 8px;
 }
+
 .singleCard * {
   transition: all 0.1s ease-in-out;
 }
+
 .singleCard:hover {
   transform: translateY(-7px);
 }
-.singleCard:hover .cardContent > .projectTitle {
+
+.singleCard:hover .cardContent>.projectTitle {
   color: #64ffda;
 }
+
 .cardContent:hover {
   cursor: pointer;
 }
+
 .singleCard * {
   font-family: sans-serif;
 }
+
 .cardTop {
   background-color: rgba(165, 42, 42, 0);
   display: flex;
@@ -33,18 +39,22 @@
   width: 40px;
   transition: all 0.2s ease-in-out;
 }
+
 .projectGitLink:hover {
   color: #64ffda;
   transform: translateY(-3px);
   cursor: pointer;
 }
+
 .feather-folder {
   color: #64ffda;
 }
+
 .feather-github {
   height: 20px;
   width: 20px;
 }
+
 .cardp {
   margin-bottom: 0;
   display: block;
@@ -55,6 +65,7 @@
   font-weight: bold;
   font-size: large;
 }
+
 .projectSubtitle {
   color: #919dbb;
   font-size: 1rem;
@@ -67,19 +78,31 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  /* text-shadow:
+    0 0 7px #ffffff32,
+    0 0 10px #ffffff61,
+    0 0 21px #ffffff52,
+    0 0 42px rgba(0, 255, 170, 0.155),
+    0 0 82px rgba(0, 255, 170, 0.318),
+    0 0 92px rgba(0, 255, 170, 0.251),
+    0 0 102px rgba(0, 255, 170, 0.266),
+    0 0 151px rgba(0, 255, 170, 0.27); */
 }
+
 .projectTag {
   margin: 0 0.5rem 0.3rem 0.5rem;
   display: inline;
   font-size: small;
-
-  color: #687492;
+  font-weight: bold;
+  color: #9da3b5;
 }
+
 @media only screen and (max-width: 1300px) {
   .projectSubtitle {
     height: 9rem;
   }
 }
+
 @media only screen and (max-width: 1200px) {
   .projectSubtitle {
     height: auto;

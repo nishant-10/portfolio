@@ -7,13 +7,14 @@ import "./App.css";
 import ReactDOM from "react-dom";
 
 function App() {
-  const [isHamClicked, hamClick] = useState(true);
+  // const [isHamClicked, hamClick] = useState(true);
   const appCLick = () => {
+    // return;
     let element = document.getElementById("hamMenu");
     let element2 = document.getElementById("app2");
     var t = ReactDOM.findDOMNode(element);
 
-    //t.style.transform = "TranslateX(100%)";
+    // t.style.transform = "TranslateX(100%)";
   };
   const override = css`
     display: flex;
@@ -22,13 +23,13 @@ function App() {
     align-items: center;
     width: 100%;
   `;
-  const [loading, setLoading] = useState(false);
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-  }, []);
+  // const [loading, setLoading] = useState(true);
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 2000);
+  // }, []);
   return (
     <div className="App">
       {/* {loading ? (

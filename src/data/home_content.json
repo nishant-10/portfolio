@@ -2,26 +2,22 @@
   "AllText": {
     "heroDescription": "An aspiring learner who is always curious to learn new things, experiment, look for solutions and grab opportunities! Currently, I am focused on",
     "heroDescriptionKeyword": "web development technologies",
-    "AboutParaOne": "Hello! My name is Nishant Joshi and i enjoy making things on web. I also know basics of app development but my main intrest is on web development. My intrest started way back when i started my BSc IT in 2015 from DG Ruparel college. Then, I completed MSc in Computer Science from Ramnarain Ruia Autonomous college. MSc exposed me to various new technologies such as data science, data mining, blockchain, AI, ML, etc.",
-    "AboutParaTwo": "During all these years, I got a chance to do around 15 projects / demonstrations which included writeups, mini projects, final year projects. In this portfolio I've also added demos that are chosen and made by myself. Currently I've experience of 6 months of working as a NodeJS backend developer intern in Finclusion Solutions Pvt Ltd. It's financial consulting and IT solution providing company based in Andheri, Mumbai.",
-    "AboutParaThree": "During the intern period, I've worked on APIs, Databases, modelling digrams, etc.",
+    "AboutParaOne": "Hello! My name is Nishant Joshi and i enjoy making things on web. I started my journey in web development as a Node JS backend developer intern at Finclusion Solutions Pvt Ltd. Currently, Iam working as a Software Engineer at NewAge Product Inc. since 2022.",
+    "AboutParaTwo": "Currently I've experience of 6 months of working as a NodeJS backend developer intern in Finclusion Solutions Pvt Ltd. It's financial consulting and IT solution providing company based in Andheri, Mumbai.",
+    "AboutParaThree": "I completed my post graduation in Masters of Science, Computer Science from Ramnarain Ruia Autonomous College, Mumbai & my Bachelor of Science, Information Technology from D.G. Ruparel College, Mumbai. During all these years, I got a chance to do around 15 projects / demonstrations which included writeups, mini projects, final year projects, etc. A few of them are listeds below.",
     "AboutSkills": [
-      "HTML & CSS",
-      "JavaScript",
-      "NodeJS",
-      "Python",
-      "MongoDB",
-      "SQL"
+      "Next JS",
+      "Express JS",
+      "Shopify",
+      "MySQL",
+      "MongoDB"
     ]
   },
   "Socials": {
     "Resume": "https://www.nishantjoshi.com/Resume.pdf",
     "Instagram": "https://www.instagram.com/nishantism/",
-
     "LinkedIn": "https://www.linkedin.com/in/nishantjoshi10/",
-
     "Email": "nishantjoshi863@gmail.com",
-
     "GitHub": "https://github.com/nishant-10"
   },
   "projects": [
@@ -29,7 +25,14 @@
       "id": 1,
       "Title": "Cloud Based Vehicle Surveillance System",
       "Description": "Client app made in Python detects & alerts driver's drowsiness, obstacles, etc. Also uploads & display clips of these occurences on a website.",
-      "Tags": ["HTML", "CSS", "Bootstrap", "PHP", "MySQL", "Python"],
+      "Tags": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "PHP",
+        "MySQL",
+        "Python"
+      ],
       "DemoLink": "https://github.com/nishant-10/CloudBasedVehicleSurveillance",
       "GitLink": "https://github.com/nishant-10/CloudBasedVehicleSurveillance"
     },
@@ -37,7 +40,11 @@
       "id": 2,
       "Title": "Virtual Keypad using vanilla Javascript",
       "Description": "Keypad that we use on banking websites as a security measure. Many features such as jumbling of keys after reload and tab change.",
-      "Tags": ["HTML", "CSS", "Javascript"],
+      "Tags": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
       "DemoLink": "https://github.com/nishant-10/Javascript_Virtual_Keypad",
       "GitLink": "https://github.com/nishant-10/Javascript_Virtual_Keypad"
     },
@@ -61,7 +68,10 @@
       "id": 4,
       "Title": "Covid 19 Tracker using R Shiny",
       "Description": "As a part of Big Data syllabus, a web application to visualize covid waves in a very interactive manner.",
-      "Tags": ["R", "R Shiny"],
+      "Tags": [
+        "R",
+        "R Shiny"
+      ],
       "DemoLink": "https://github.com/nishant-10/RShinyCovidTracker",
       "GitLink": "https://github.com/nishant-10/RShinyCovidTracker"
     },
@@ -69,7 +79,11 @@
       "id": 5,
       "Title": "Climate Change Analysis & visualization",
       "Description": "As a part of Advanced Mining Techinques syllabus, wrote a python script to interactively visualize data using maps.",
-      "Tags": ["Python", "Jupyter Notebook", "MapBox API"],
+      "Tags": [
+        "Python",
+        "Jupyter Notebook",
+        "MapBox API"
+      ],
       "DemoLink": "https://github.com/nishant-10/ClimateChangeAnalysisAndVisualization",
       "GitLink": "https://github.com/nishant-10/ClimateChangeAnalysisAndVisualization"
     },
@@ -77,7 +91,11 @@
       "id": 6,
       "Title": "Desktop app for bruteforcing social media sites",
       "Description": "App which uses combination of alphabets or dictionary to brute force attack login pages.",
-      "Tags": ["Python", "Tkinter", "Selenium"],
+      "Tags": [
+        "Python",
+        "Tkinter",
+        "Selenium"
+      ],
       "DemoLink": "https://github.com/nishant-10/BruteForceDesktopApp",
       "GitLink": "https://github.com/nishant-10/BruteForceDesktopApp"
     }
